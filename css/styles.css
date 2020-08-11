@@ -26,8 +26,11 @@ a {
    
 }
 
+    
+
 .header-container{
     
+    display: flex;
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
@@ -53,16 +56,34 @@ line-height: 1.19;
 
 .list{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Site-nav */
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav{
+    display: flex;
+}
+
 
 .site-nav .link{
+    display: block;
     color: #212121;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.site-nav .child + .child{
+    margin-left: 50px;
 }
 
 .site-nav .link:hover,
@@ -71,7 +92,18 @@ line-height: 1.19;
 }
 
 /* Auth-nav */
+
+.auth-nav{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.auth-nav .child + .child{
+    margin-left: 50px;
+}
 .auth-nav .link{
+    
     color: #757575;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -138,19 +170,24 @@ line-height: 1.19;
     font-weight: bold;
     font-size: 14px;
     line-height:1.14;
-    color:var(--title-text-color)
+    color:var(--title-text-color);
+    margin: 0;
+    padding: 0;
 }
 
 .text{
     color:var(--primari-text-color);
     font-size: 14px;
     line-height: 1.71;
+    margin: 0;
+    padding: 0;
 }
 
 .function-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
+    margin: 0;
 }
 /* Портфолио */
 .main-portfolio{
@@ -182,6 +219,7 @@ background-color: #E5E5E5;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
+    margin: 0;
 }
 
 .comand-initials{
@@ -189,12 +227,14 @@ background-color: #E5E5E5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin: 0;
 }
 
 .profesion{
     color: #757575;
     font-size: 16px;
     line-height: 1.18;
+    margin: 0;
 }
 /* Футер */
 
