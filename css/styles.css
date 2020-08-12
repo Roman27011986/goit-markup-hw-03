@@ -427,15 +427,17 @@ padding: 6px 22px;
 }
 
 .portfolio-container{
-   width: 1300px;
+    
+   width: 1170px;
    height: 1360px;
-   padding-left: 15px;
-   padding-right: 15px;
+   
    margin-right: auto;
    margin-left: auto;
 }
 
 .portfolio-style{
+    height: 1360px;
+    width: 1170px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -444,10 +446,13 @@ padding: 6px 22px;
     
 }
 
+
+
+
 .portfolio-style .style-chyld{
     margin-right: 30px;
     margin-bottom: 30px;
-    width: 370px;
+    
     height: 404px;
     
 }
