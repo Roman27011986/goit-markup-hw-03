@@ -416,7 +416,7 @@ padding: 6px 22px;
 .portfolio-container{
     
     width: 1200px;
-    height: 1360px;
+    height: 1366px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -424,6 +424,7 @@ padding: 6px 22px;
     margin-left: auto;
  }
 
+ 
  .style-title{
      padding-left: 24px;
     font-family: Roboto;
@@ -431,7 +432,8 @@ padding: 6px 22px;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
-    
+    margin-top: 0;
+    margin-bottom: 4px;
     
     letter-spacing: 0.06em;
  }
@@ -463,8 +465,10 @@ padding: 6px 22px;
 
 
 .portfolio-style{
-    height: 1360px;
-    width: 1170px;
+    height: 1272px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -479,9 +483,10 @@ padding: 6px 22px;
 .portfolio-style .style-chyld{
     margin-right: 30px;
     margin-bottom: 30px;
-    
+    border: 1px solid #EEEEEE;
     height: 404px;
-    
+    width: 370px;
+
 }
 
 .style-chyld:nth-child(3n){
