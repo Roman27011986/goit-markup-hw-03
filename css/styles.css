@@ -376,15 +376,11 @@ padding: 0;
 
 /* Portfolio page */
 
-.main-portfolio{
-    width: 1600px;
-    height: 1550px;
+.button-container{
+    
+
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffffff;
-}
-
-.button-container{
     text-align: center;
     padding-top: 94px;
     padding-bottom: 50px;
@@ -416,10 +412,11 @@ padding: 6px 22px;
 .portfolio-container{
     
     width: 1200px;
-    height: 1366px;
+    height: 1272;
+    
     padding-left: 15px;
     padding-right: 15px;
-    
+    padding-bottom: 94px;
     margin-right: auto;
     margin-left: auto;
  }
@@ -465,10 +462,7 @@ padding: 6px 22px;
 
 
 .portfolio-style{
-    height: 1272px;
     
-    padding-left: 15px;
-    padding-right: 15px;
     padding: 0;
     margin: 0;
     list-style: none;
