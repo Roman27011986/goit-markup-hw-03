@@ -185,7 +185,7 @@ letter-spacing: 0.03em;
 
 }
 
-/* Section */
+/* о нас*/
 
 .about-us{
 width: 1600px;
@@ -306,7 +306,7 @@ padding: 0;
     display: flex;
 }
 .comand{
-    width: 1600px;
+    
     height: 648px;
     padding-top: 94px;
     margin-left: auto;
