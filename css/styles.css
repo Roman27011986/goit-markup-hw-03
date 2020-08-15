@@ -21,6 +21,9 @@ a {
 }
 
 .main-container{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto,Calibri;
     letter-spacing: 0.03em;
     margin: 0 auto;
@@ -123,8 +126,9 @@ letter-spacing: 0.03em;
 /* Hero */
 
 .hero{
-    text-align: center;
     
+    display: flex;
+    align-items: center;
     max-width: 1600px;
     height: 597px;
     margin-left: auto;
@@ -138,6 +142,14 @@ letter-spacing: 0.03em;
     
 }
 
+.title-container{
+    text-align: center;
+    width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
 .hero-title{
     color: #ffffff;
     font-weight: 900;
@@ -145,17 +157,15 @@ letter-spacing: 0.03em;
     line-height: 1.36;
     margin-top:0;
     margin-bottom:20px;
-    padding-top:200px;
-    padding-right:452px;
-    padding-left:452px;
+    
 
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .hero .service{
-    display:inline-block;
+    
     font-family: Roboto;
     font-weight: bold;
     color: white;
@@ -165,7 +175,7 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.87;
     min-width: 200px;
-    text-align: center;
+    
     height: 50px;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -179,7 +189,8 @@ letter-spacing: 0.03em;
 
 .about-us{
 width: 1600px;
-height: 770px;
+
+padding-top: 94px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -187,7 +198,7 @@ margin-right: auto;
     
     width: 1200px;
     height: 101px;
-    margin-top: 94px;
+    
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -233,12 +244,14 @@ margin-right: auto;
 
     
     
-    
+  .container{
+    padding-top: 94px;
+    padding-bottom: 92px;
+}  
 
 
 .function-container{
     width: 1200px;
-    margin-top: 94px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -286,11 +299,12 @@ padding: 0;
 .team-item{
     
     width:1200px;
+    
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 94px;
+    
     
 }
 .team{
@@ -299,6 +313,7 @@ padding: 0;
 .comand{
     width: 1600px;
     height: 648px;
+    padding-top: 94px;
     margin-left: auto;
     margin-right: auto;
     background-color: #F5F4FA;
@@ -344,6 +359,7 @@ padding: 0;
 .footer{
     width: 1600px;
     height: 252px;
+    
     margin-left: auto;
     margin-right: auto;
     background-color: #2F303A;
@@ -384,13 +400,13 @@ padding: 0;
 
 
 .portfolio-page{
-    margin: 0 auto;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-container{
-    
 
-   
     text-align: center;
     padding-top: 94px;
     padding-bottom: 50px;
@@ -422,7 +438,7 @@ padding: 6px 22px;
 .portfolio-container{
     
     width: 1200px;
-    
+    height: 1360px;
     
     padding-left: 15px;
     padding-right: 15px;
