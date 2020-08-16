@@ -40,7 +40,6 @@ a {
   margin: auto;
   border-bottom: 1px solid #ececec;
 }
-
 .header-item {
   display: flex;
   width: 1200px;
@@ -48,7 +47,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .logo {
   font-family: Raleway;
   color: #2196f3;
@@ -344,7 +342,6 @@ a {
 }
 
 /* Portfolio page */
-
 .button-container {
   width: 660px;
   margin: 0 auto;
