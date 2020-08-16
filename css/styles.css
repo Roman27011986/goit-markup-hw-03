@@ -116,11 +116,16 @@ a {
 
 /* Hero */
 
+.main-hero {
+  display: flex;
+  justify-content: center;
+}
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+
   width: 1600px;
   height: 600px;
   background-image: linear-gradient(
