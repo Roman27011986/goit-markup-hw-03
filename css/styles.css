@@ -33,24 +33,21 @@ a {
   margin-left: auto;
 }
 
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* хедер */
 
-.header-container {
-  width: 1600px;
-  margin: auto;
-  border-bottom: 1px solid #ececec;
-}
-.header-item {
+.top-container {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
+
 .logo {
   font-family: Raleway;
   color: #2196f3;
-
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -61,15 +58,9 @@ a {
   color: #000000;
 }
 
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 /* Site-nav */
 
-.nav-container {
+.main-nav {
   display: flex;
   align-items: center;
 }
@@ -125,19 +116,13 @@ a {
 
 /* Hero */
 
-.hero-item {
-  width: 694px;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .hero {
-  margin: 0 auto;
   display: flex;
   align-items: center;
-  max-width: 1600px;
-  height: 597px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1600px;
+  height: 600px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -146,11 +131,9 @@ a {
     url("../images/hero.jpg");
 }
 
-.title-container {
+.hero-item {
+  width: 694px;
   text-align: center;
-  width: 696px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .hero-title {
@@ -262,8 +245,8 @@ a {
 
 .comand {
   width: 1600px;
-  height: 648px;
   padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
   background-color: #f5f4fa;
@@ -304,26 +287,18 @@ a {
 
 .footer {
   width: 1600px;
-  height: 252px;
-
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2f303a;
-}
-
-.footer-container {
-  margin-left: 215px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 224px;
-  height: 148px;
 }
 
 .logo-footer {
   color: #ffffff;
 }
 
-.adres {
+.adress {
   margin-top: 20px;
   margin-bottom: 10px;
   color: #ffffff;
@@ -342,14 +317,23 @@ a {
 }
 
 /* Portfolio page */
+
+.portfolio-header {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ececec;
+}
+
 .button-container {
-  width: 660px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
   padding-top: 94px;
   padding-bottom: 50px;
 }
 
-.portfolio .portfolio-button + .portfolio-button {
+.portfolio-button + .portfolio-button {
   margin-left: 8px;
 }
 
@@ -402,11 +386,10 @@ a {
   letter-spacing: 0.03em;
 }
 
-.portfolio .item:hover {
+.item:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
-
 .portfolio-style {
   padding: 0;
   margin: 0;
@@ -414,7 +397,6 @@ a {
   flex-wrap: wrap;
   display: flex;
 }
-
 .portfolio-style .style-chyld {
   margin-right: 30px;
   margin-bottom: 30px;
