@@ -244,7 +244,6 @@ a {
 }
 
 .comand {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   margin-left: auto;
@@ -286,7 +285,6 @@ a {
 /* Футер */
 
 .footer {
-  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -319,9 +317,6 @@ a {
 /* Portfolio page */
 
 .portfolio-header {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   border-bottom: 1px solid #ececec;
 }
 
